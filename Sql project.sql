@@ -214,23 +214,3 @@ SELECT U.User_id, U.Username, U.Full_Name, U.Registration, P.Post_date
 FROM Users U
 INNER JOIN Posts P ON U.User_id = P.User_id
 WHERE DATE(U.Registration) = DATE(P.Post_date);
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
